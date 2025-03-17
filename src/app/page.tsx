@@ -3,11 +3,10 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaFilePdf, FaRunning, FaMusic, FaCamera, FaPlane, FaGamepad } from "react-icons/fa";
-import { FaReact, FaNodeJs, FaDatabase, FaTools, FaDocker } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaTools, FaDocker } from "react-icons/fa";
 import { SiMongodb, SiJavascript, SiTailwindcss, SiTypescript, SiPostman, SiAew } from "react-icons/si";
 import { FaCogs, FaLock, FaPaintBrush, FaRocket, FaLink, FaPencilRuler } from "react-icons/fa";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { FaEnvelope, FaLinkedin, FaCoffee, FaRegCommentDots } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("resume");
 
@@ -68,7 +67,7 @@ export default function Home() {
             I Am <span className="text-red-500">Isha Joshi</span>
           </h1>
           <p className="text-lg text-gray-300 mt-4 leading-relaxed">
-            I'm a Data Analyst with experience in SQL, Power BI, and Python.
+            I&apos;m a Data Analyst with experience in SQL, Power BI, and Python.
             I create dashboards and insights to drive business decisions.
           </p>
 
@@ -126,7 +125,7 @@ export default function Home() {
             and automation.
           </p>
           <p className="about-text mt-2">
-            Currently, I'm expanding my skills in Machine Learning and Cloud Analytics.
+            Currently, I&apos;m expanding my skills in Machine Learning and Cloud Analytics.
           </p>
 
           {/* ✅ Read More Button */}
@@ -258,7 +257,7 @@ export default function Home() {
     <h3 className="text-red-400 text-xl font-bold">Resume</h3>
   </div>
   <p className="text-gray-400 italic mt-2">
-    "Your resume is your personal brand—make it compelling, make it powerful, and let it open doors to your dream job."
+  &quot;Your resume is your personal brand—make it compelling, make it powerful, and let it open doors to your dream job.&quot;
   </p>
   <a
     href="/ISha Resume.pdf"
@@ -317,7 +316,7 @@ export default function Home() {
 
         <div className="bg-gray-800 p-4 rounded-lg">
           <h4 className="text-lg text-cyan-400 font-semibold">Getting Started with Machine Learning</h4>
-          <p className="text-gray-400 text-sm">A beginner's guide to ML models and their real-world applications.</p>
+          <p className="text-gray-400 text-sm">A beginner&apos;s guide to ML models and their real-world applications.</p>
         </div>
       </div>
     </div>
